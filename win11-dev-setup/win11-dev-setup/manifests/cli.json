@@ -1,0 +1,25 @@
+{
+  "winget": [
+    {
+      "id": "BurntSushi.ripgrep"
+    },
+    {
+      "id": "sharkdp.fd"
+    },
+    {
+      "id": "sharkdp.bat"
+    },
+    {
+      "id": "eza-community.eza"
+    },
+    {
+      "id": "junegunn.fzf"
+    },
+    {
+      "id": "GnuPG.GnuPG"
+    },
+    {
+      "id": "WiresharkFoundation.Wireshark"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "winget": [
+    {
+      "id": "GoLang.Go"
+    },
+    {
+      "id": "Rustlang.Rustup"
+    },
+    {
+      "id": "LLVM.LLVM"
+    },
+    {
+      "id": "Kitware.CMake"
+    },
+    {
+      "id": "Ninja-build.Ninja"
+    }
+  ]
+}

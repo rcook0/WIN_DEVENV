@@ -1,0 +1,10 @@
+{
+  "winget": [
+    {
+      "id": "Oracle.VirtualBox"
+    },
+    {
+      "id": "Hashicorp.Vagrant"
+    }
+  ]
+}

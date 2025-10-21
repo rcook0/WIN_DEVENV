@@ -1,0 +1,11 @@
+{
+  "winget": [
+    {
+      "id": "OpenJS.NodeJS.LTS"
+    }
+  ],
+  "npm_global": [
+    "pnpm",
+    "@devcontainers/cli"
+  ]
+}

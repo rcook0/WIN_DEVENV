@@ -1,0 +1,25 @@
+{
+  "winget": [
+    {
+      "id": "Microsoft.PowerShell"
+    },
+    {
+      "id": "Git.Git"
+    },
+    {
+      "id": "GitHub.cli"
+    },
+    {
+      "id": "Microsoft.WindowsTerminal"
+    },
+    {
+      "id": "Microsoft.VisualStudioCode"
+    },
+    {
+      "id": "7zip.7zip"
+    },
+    {
+      "id": "Google.Chrome"
+    }
+  ]
+}

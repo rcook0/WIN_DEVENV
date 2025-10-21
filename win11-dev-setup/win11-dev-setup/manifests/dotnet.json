@@ -1,0 +1,17 @@
+{
+  "winget": [
+    {
+      "id": "Microsoft.DotNet.SDK.8"
+    },
+    {
+      "id": "Microsoft.DotNet.SDK.9"
+    },
+    {
+      "id": "Microsoft.VisualStudio.2022.BuildTools"
+    }
+  ],
+  "dotnet_tools": [
+    "dotnet-outdated-tool",
+    "dotnet-ef"
+  ]
+}

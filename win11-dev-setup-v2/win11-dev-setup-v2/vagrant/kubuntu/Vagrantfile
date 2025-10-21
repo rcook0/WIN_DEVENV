@@ -1,0 +1,17 @@
+# -*- mode: ruby -*-
+Vagrant.configure("2") do |config|
+  config.vm.box = "bento/ubuntu-22.04"
+  config.vm.hostname = "kubuntu-dev"
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = 8192
+    vb.cpus = 4
+    vb.gui = true
+  end
+  config.vm.provision "shell", inline: <<-SHELL
+    set -eux
+    sudo apt-get update
+    sudo apt-get install -y kde-plasma-desktop sddm konsole dolphin kate
+    sudo systemctl set-default graphical.target || true
+    sudo systemctl enable sddm || true
+  SHELL
+end

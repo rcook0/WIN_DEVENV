@@ -1,0 +1,10 @@
+{
+  "winget": [
+    {
+      "id": "Pandoc.Pandoc"
+    },
+    {
+      "id": "MiKTeX.MiKTeX"
+    }
+  ]
+}
