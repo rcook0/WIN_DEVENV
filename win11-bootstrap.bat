@@ -121,10 +121,10 @@ dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V-All /all /norest
 set "VMNAME=Kubuntu-24.04"
 set "MEMGB=8"
 set "CPUS=4"
-set "VHDSIZEGB=60"
-set "ISOURL=https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.1-desktop-amd64.iso"
+set "VHDSIZEGB=60" 25.10/release/kubuntu-25.10-desktop-amd64.iso
+set "ISOURL=https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso"
 set "ISODIR=%BASE%isos"
-set "ISOPATH=%ISODIR%\kubuntu-24.04.1-desktop-amd64.iso"
+set "ISOPATH=%ISODIR%\kubuntu-25.10-desktop-amd64.iso"
 
 if not exist "%ISODIR%" mkdir "%ISODIR%"
 
@@ -156,3 +156,4 @@ echo 3) Inside Ubuntu:   bash /mnt/c/win11-dev-setup/wsl/kubuntu-wsl-setup.sh
 echo 4) To start VM:     Start-VM %VMNAME%  (from PowerShell) or use Hyper-V Manager GUI.
 echo.
 pause
+
